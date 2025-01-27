@@ -1,0 +1,17 @@
+# Existing dependencies
+pandas==2.1.0
+numpy==1.24.3
+scikit-learn==1.3.0
+xgboost==2.0.0
+lightgbm==4.1.0
+catboost==1.2.1
+tensorflow==2.13.0
+mysql-connector-python==8.1.0
+pyyaml==6.0.1
+ortools==9.7.2996
+
+# New dashboard dependencies
+streamlit==1.27.0
+folium==0.14.0
+streamlit-folium==0.13.0
+plotly==5.17.0

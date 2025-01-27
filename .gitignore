@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+catboost_info/
+
+# Environment and local settings
+.env
+.venv
+venv/
+ENV/
+
+# Data files
+src/data/*.csv
+src/data/*.xlsx
+src/data/*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+logs/
+temp/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.docker/
+docker-volumes/
+
+# Model artifacts
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Documentation
+docs/_build/
+site/

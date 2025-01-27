@@ -1,0 +1,27 @@
+database:
+  DB_HOST: 127.0.0.1
+  DB_USER: root
+  DB_PASSWORD: ********
+  DB_NAME: translogi_db
+
+models:
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+  xgboost:
+    n_estimators: 100
+    learning_rate: 0.1
+  lightgbm:
+    n_estimators: 100
+    num_leaves: 31
+  catboost:
+    iterations: 100
+    depth: 6
+  neural_network:
+    hidden_layers: [64, 32]
+    dropout_rate: 0.2
+
+route_optimization:
+  max_vehicles: 20
+  max_capacity: 1000
+  time_window: 600
