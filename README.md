@@ -301,7 +301,3 @@ flake8 .
 - FastAPI framework
 - Streamlit for dashboard
 - CatBoost, XGBoost, and LightGBM teams
-- Contributors and maintainers
-
-## Support
-For support, email support@transilogi.com or open an issue in the repository.
